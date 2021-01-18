@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=divice-width, initial-scale=1.0" />
+    </head>
+    <body>
+        <header>
+            <h1 class="header__title">Herings 부작용 보고 서비스</h1>
+        </header>
+        <section class="box--white"> 
+            <form>
+                <div class="search">
+                    <br>
+                    <label class="search__title">복용하는 약</br>
+                    <input class="search__input" type="text" />
+                    </label>
+                    <button class="puls__btn">+</button>
+                </div>
+                <div class="search">
+                    <br>
+                    <label class="search__title">의심되는 부작용</br>
+                    <input class="search__input" type="text" />
+                    </label>
+                    <button class="puls__btn">+</button>
+                </div>
+                <div class="information">
+                    <span class="search__title">추가정보</span>
+                    <p class="information__text">추가 정보를 입력하시면 더욱 정확한 정보를 얻으실 수 있습니다.</p>
+                </div>
+                <div class="box--gray">
+                     <div class="information-gender">
+                        <br>
+                        <span class="information__title">성별</span></br>
+                        <input class="radio-btn" type="radio" name="gender" value="남" /> 남
+                        <input class="radio-btn" type="radio" name="gender" value="여" /> 여
+                    </div>
+                    <div class="information-year">
+                        <br>
+                        <span class="information__title">생년</span></br>
+                        <select class="information__select">
+                            <option value="none"></option>
+                            <option value="1~3회">1~3회</option>
+                            <option value="6~9회">6~9회</option>
+                            <option value="10~15회">10~15회</option>
+                        </select>
+                     </div>
+                     <div class="information-period">
+                        <br>
+                        <span class="information__title">복용기간</span>
+                        <span class="information-period__text">ex)1일 3회, 3일=9회.</span></br>
+                        <select class="information__select">
+                            <option value="none"></option>
+                            <option value="1~3회">1~3회</option>
+                            <option value="6~9회">6~9회</option>
+                            <option value="10~15회">10~15회</option>
+                        </select>
+                     </div>
+                     <div class="a">
+                        <div class="information-weight"><br>
+                            <span class="information__title">키</span></br>
+                            <input class="information__input" type="text"/>
+                            <span class="information__text--small">cm</span>
+                        </div>
+                        <div class="information-weight"><br>
+                            <span class="information__title">몸무게</span></br>
+                            <input class="information__input" type="text"/>
+                            <span class="information__text--small">kg </span>
+                        </div>
+                    </div>
+                </div>
+                <input class="submit__btn" type="submit" value="제출" />
+          </form>
+        </section>
+    </body>
+</html>
